@@ -18,10 +18,10 @@ var temperatures : [Double] = []
 print("There are \(temperatures.count) values in the array right now.")
 
 /*:
- Let's add five random temperatures.
+ Let's add five random temperatures between 10 degrees and 30 degrees (ah, warm weather!).
  */
 for _ in 1...5 {
-    temperatures.append(Double(arc4random_uniform(20)))
+    temperatures.append( Double( arc4random_uniform(20) + 10 ))
 }
 print("There are \(temperatures.count) values in the array right now.")
 
@@ -30,7 +30,7 @@ print("There are \(temperatures.count) values in the array right now.")
  
  Let's find the lowest temperature.
  */
-var lowest = 21.0         // Keeps track of the lowest value found so far
+var lowest = 31.0         // Keeps track of the lowest value found so far
 
 // Inspect each temperature one by one
 for temperature in temperatures {
