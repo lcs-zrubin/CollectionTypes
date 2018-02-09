@@ -25,3 +25,5 @@
  [Next](@next)
  
  */
+
+//: NOTE: Parts of this multi-page playground are adapted from [The Swift Programming Language Guide - Collection Types](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/CollectionTypes.html).
