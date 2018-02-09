@@ -17,10 +17,6 @@
  
  ![collection-types](collection-types.png "A visual illustration of the three collection types available in Swift.")
  
+ [Next](@next)
+
  */
-
-import Foundation
-
-var str = "Hello, playground"
-
-//: [Next](@next)
