@@ -1,6 +1,10 @@
 /*:
  # Introduction
  
+ NOTE: If you need subtitles (don't have headphones) you can [watch this video on YouTube](https://youtu.be/e8YqxP6Lw8M).
+
+ ![What are collection types? Why are they useful?](http://russellgordon.ca/lcs/ics3u/videos/introduction-to-collection-types.mov poster="poster.png"  width="622" height="379")
+ 
  So far, we have used single-instance variables and constants:
  
     var dogName = "Ginny"
