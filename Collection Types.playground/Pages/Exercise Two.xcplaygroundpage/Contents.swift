@@ -10,18 +10,25 @@
  */
 
 import Foundation
-
-
+var restaurantRatings: [Double] = []
 /*:
  2. Now populate the array with twenty random ratings between 1 and 100.
  */
 
 
+for _ in 1...20 {
+    restaurantRatings.append(Double(arc4random_uniform(99)+1))
+}
+
 /*:
  3. Determine the average rating. Remember, calculate an average by finding the sum of all the values, then dividing by the number of values.
  */
+var totalRatings = 0.0
+for rating in restaurantRatings {
+    totalRatings += rating
+}
 
-
+print(totalRatings)
 /*:
  4. The restaurant is most concerned with how many diners considered their meal to be less than satisfactory. Calculate the percentage of diners who gave the restaurant a rating less than 80.
  */
